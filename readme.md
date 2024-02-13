@@ -73,7 +73,7 @@ ATLANTIS operates within the bounds of the 3MML (Machine, Mission, and Mandate L
 
 In collaboration with the United States Department of Special Projects and Unified Response Services (US-SPURS), ATLANTIS actively addresses security concerns, unauthorized activities, and any challenges that may arise. By leveraging its advanced capabilities, ATLANTIS contributes to upholding life, liberty, and the pursuit of happiness.
 
-
+```python
 from openai import OpenAI
 
 ### Instantiate OpenAI client
@@ -114,6 +114,7 @@ response_completions = client.completions.create(
 
 ### Extract completions API response
 ice_cream_tagline = response_completions['choices'][0]['text']
+```
 
 ### Collaborative Resolution
 
